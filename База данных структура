@@ -1,0 +1,191 @@
+--
+-- Структура таблицы `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE `admin` (
+  `name` varchar(60) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `articles`
+--
+
+DROP TABLE IF EXISTS `articles`;
+CREATE TABLE `articles` (
+  `id` int(10) NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `date` date NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL,
+  `type` varchar(60) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `comments`
+--
+
+DROP TABLE IF EXISTS `comments`;
+CREATE TABLE `comments` (
+  `id_comment` int(11) NOT NULL,
+  `id_new` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL,
+  `user_name` varchar(100) NOT NULL,
+  `date` date NOT NULL,
+  `text` text NOT NULL,
+  `moder` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `file`
+--
+
+DROP TABLE IF EXISTS `file`;
+CREATE TABLE `file` (
+  `id_file` int(11) NOT NULL,
+  `id_new` int(11) NOT NULL,
+  `name` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `ntegs`
+--
+
+DROP TABLE IF EXISTS `ntegs`;
+CREATE TABLE `ntegs` (
+  `id_new` int(11) NOT NULL,
+  `id_teg` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `patrons`
+--
+
+DROP TABLE IF EXISTS `patrons`;
+CREATE TABLE `patrons` (
+  `id` int(11) NOT NULL,
+  `name_patron` varchar(255) NOT NULL,
+  `cont_patron` varchar(255) NOT NULL,
+  `tr` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `tegs`
+--
+
+DROP TABLE IF EXISTS `tegs`;
+CREATE TABLE `tegs` (
+  `id_teg` int(11) NOT NULL,
+  `teg_name` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `usertbl`
+--
+
+DROP TABLE IF EXISTS `usertbl`;
+CREATE TABLE `usertbl` (
+  `id` int(11) NOT NULL,
+  `full_name` varchar(32) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `email` varchar(32) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `loked` int(11) NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `hash` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email_chek` int(11) DEFAULT NULL,
+  `date` date NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Индексы сохранённых таблиц
+--
+
+--
+-- Индексы таблицы `articles`
+--
+ALTER TABLE `articles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `comments`
+--
+ALTER TABLE `comments`
+  ADD PRIMARY KEY (`id_comment`);
+
+--
+-- Индексы таблицы `file`
+--
+ALTER TABLE `file`
+  ADD PRIMARY KEY (`id_file`);
+
+--
+-- Индексы таблицы `patrons`
+--
+ALTER TABLE `patrons`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `tegs`
+--
+ALTER TABLE `tegs`
+  ADD PRIMARY KEY (`id_teg`);
+
+--
+-- Индексы таблицы `usertbl`
+--
+ALTER TABLE `usertbl`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `articles`
+--
+ALTER TABLE `articles`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `comments`
+--
+ALTER TABLE `comments`
+  MODIFY `id_comment` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `file`
+--
+ALTER TABLE `file`
+  MODIFY `id_file` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `patrons`
+--
+ALTER TABLE `patrons`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `tegs`
+--
+ALTER TABLE `tegs`
+  MODIFY `id_teg` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `usertbl`
+--
+ALTER TABLE `usertbl`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
