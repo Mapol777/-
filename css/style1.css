@@ -1,0 +1,8 @@
+.adress{
+	color: black;
+}
+@media(min-width: 700px){
+	.addresss{
+		color: red; 
+	}
+}

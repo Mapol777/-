@@ -1,0 +1,146 @@
+@media (min-width: 640px){.blog-card .description:before {background: #3e3e3e;}}
+body{background-color: #191E24;}
+h1{color: white; background-color: #191e24;}
+h2{color: white;}
+h3{color: #c9c9c9;}
+p{color: #505050;}
+a{color: white;}
+table{color: #848484;transition: color .25s ease;}
+table:hover{color: #c9c9c9; transition: color .5s ease;}
+.HeaderLoginBtn-icon {background-image: url(../img/log-d-n.svg);}
+form .HeaderLoginBtn {color: white;}
+.is-activeLoginWindow .HeaderLoginBtn-icon {background-image: url(../img/log-d-a.svg);}
+.input-group__title {color: #fff;}
+.UserPanelLogin__input-group {color: #fff;}
+.UserPanelLogin__title{color: #fff;}
+.Header{transition: background-color .5s ease;background:#11151bc4;color:#fff;}
+.Header:hover{transition: background-color .5s ease-out;background:#11151b;color:#fff;}
+.HeaderBar-title a, .HeaderBar-title a:hover, .HeaderBar-title a:visited{color:#ffffff;}
+.HeaderNav-categoriesListLink{color: #fff}
+.HeaderTemaBtn-icon{background-image:url(../img/dark.svg);}
+.blog-card p:first-of-type:before {background: #ffffff;}
+.blog-card .description {background: #22272d;}
+.blog-card .description .read-more a {color: #ffffff;}
+.blog-card p:first-of-type {color: #a2a2a2;}
+.blog-card .description h1 {color: #ffffff}
+#loginform input {border-bottom: 2px solid #fff;}
+#loginform #wp-submit, #loginform #register{border: 2px solid #fff;background-color: #0000;color: #fff;}
+.HeaderMenuBtn-icon {background-color: #fff;color: #fff;}
+.blog-card .description .read-more a {color: #fff;}
+.DivNews .palochka {background-color: #fff;}
+.podgruzka {border: 2px solid white;background-color: #191e23;color: white;}
+.carusel h2{color: #fff;}
+.ob-osnovatele p{color: #fff;}
+/*  search  */
+.chet-bloka{background-color: #22272d;}
+.btn-default:active, .btn-default:focus, .btn-default:hover {background-color: #22272d;}
+.fa-search:before {color: #7777;}
+.search-container .article-text .search-input-container .search-filters-container .search-filters, .search-container .article-text .search-input-container .search-filters-container .search-types {background-color: #22272d;}
+.search-input{background-color: #191E24;}
+.search-input-container {color: #7777;}
+.teg-search-button button h1{color: #7777;padding-right: 0; margin-right: 5px;}
+.search-form:hover .teg-search-button button h1{color: white;}
+.search-container .article-text .search-input-container .search-form .search-input {background-color: #fefcfa00;color: #7777;}
+.search-container .article-text .search-input-container .search-form {border-bottom: 2px solid #7777;}
+.search-container .article-text .search-input-container .search-filters-container .search-filters .search-filter-item .date-input{background-color: #22272d; border:none;}
+.search-container .article-text .search-input-container .search-filters-container .search-filters .search-filter-item{border-bottom: 2px solid #6e18c0;border-bottom-color: #7777;}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{color: #7777}
+.search-container .article-text .search-input-container .search-form .search-button i.fa-sliders{display: none;}
+button.btn.dropdown-toggle.btn-default {border: none;}
+.btn:focus {outline: 0;box-shadow:none;}
+.btn-group.open .dropdown-toggle {-webkit-box-shadow: none;box-shadow: none;}
+.search-container:hover{transition: color .25s ease-out;}
+.search-container:hover .search-input-container {color: #fff;}
+.search-container:hover .search-input-container .search-filters {color: #fff;}
+.search-container:hover .article-text .search-input-container .search-form .search-input {color: #fff;}
+.search-container:hover .article-text .search-input-container .search-form {border-bottom: 2px solid #fff;}
+.search-container:hover .article-text .search-input-container .search-filters-container .search-filters .search-filter-item {border: none;border-bottom: 2px solid #6e18c0;border-bottom-color: #fff;}
+.search-container:hover .bootstrap-select.btn-group .dropdown-toggle .filter-option{color: #fff}
+.search-container:hover .article-text .search-input-container .search-form .search-button i.fa-sliders{display: inline-block;}
+.search-container:hover .fa-search:before {color: white;}
+.search-container:hover .article-text .search-input-container .search-form .search-button i.fa-sliders{transition: color .5s ease-out;color: #fff;}
+.teg-search-button .btn{color: #7777;}
+.search-container:hover .teg-search-button .btn{transition: color .25s ease-out; color: #fff;}
+::-webkit-calendar-picker-indicator {filter: invert(30%);}
+.search-container:hover ::-webkit-calendar-picker-indicator {filter: invert(1);}
+span.bs-caret {color: aliceblue;}
+.dropdown-menu.open.show, .dropdown-menu.open.show .inner{background-color: #11151b;}
+.dropdown-menu.open.show .inner{color: #fff;}
+.dropdown-menu>li>a{color: #fff;}
+.dropdown-menu>.active>a {background-color: #fff; color: #000;}
+/* footer */
+footer {background: #191E24;}
+.footer-social-overlap {background: #191E24;}
+.footer-social-connect {color:#fff;}
+.footer-bottom-wrapper {color:#ccc;}
+.dear-collor {color:#fff;}
+/* contact */
+.cont-div h3 {background-color: #191e24;}
+.rechuem{border: 2px solid #fff;}
+/* admin */
+.Header.is-visible.admin {background-color: #000;}
+.news-project-creat textarea{border: 2px solid white; background-color: #191e24;color: #777;}
+.new-comment textarea{border: 2px solid white; background-color: #191e24;color: white;}
+.news-project-creat .input-admin{border-bottom: 2px solid white;background-color: #191e24; color: #757574;}
+.news-project-creat .bootstrap-select.btn-group .dropdown-toggle .filter-option{color: #757574;}
+.news-project-creat button.btn.dropdown-toggle.btn-default{border-bottom: 2px solid white;background-color: #191e24;}
+input[type="radio"].toggle:checked + label {color: black;background-color: white;border: 2px solid white;}
+.geryyu {border: 2px solid white;color: white;}
+.open>.dropdown-toggle.btn-default{background-color: #22272d;}
+/*.not-activ .comment-icon::after{content: '';position: absolute;width: 33px;height: 30px;z-index: 1;top: 10px;background: url(../img/com-d.svg) center 0 no-repeat;background-size: cover;}
+.not-activ .redact-icon::after{content: '';position: absolute;width: 33px;height: 30px;z-index: 1;top: 10px;background: url(../img/red-d.svg) center 0 no-repeat;background-size: cover;}
+*/.news-project-creat{border: 2px solid white;}
+.comment-icon::after{content: '';position: absolute;width: 33px;height: 30px;z-index: 1;top: 10px;background-image: url(../img/com-d.svg);background-color: #191e24;background-size: cover;}
+.redact-icon::after{content: '';position: absolute;width: 33px;height: 30px;z-index: 1;top: 10px;background-image: url(../img/red-d.svg);background-color: #191e24;background-size: cover;}
+.news-project-creat{border: 2px solid white;}
+.not-activ .redact-icon::after {background-color: #2e3b4b;}
+.not-activ .comment-icon::after{filter: brightness(0.5);background-color: #fff0;}
+.not-activ .redact-icon::after{filter: brightness(0.5);background-color: #fff0;}
+.user-div {border: 2px solid white;}
+.user-teble-com .comment {border-bottom: 1px solid #6b6b6b;}
+.user-div button {color: white;background-color: #fff0;border: 2px solid white;padding: 10px;margin-top: 20px;}
+.user-div button:hover{background-color: white;color: black;}
+.teg {border-bottom: 1px solid #7777;}
+.mne_ucwvo {border-bottom: 2px solid #fff;}
+.news-project-creat .mne_ucwvo span{color: #7777;}
+.news-project-creat .ret_st {color: #7777;}
+.admin_table tr {border-bottom: 1px solid #7777}
+/* NEW */
+.new-div-p p {color: #c3c3c3;}
+.osnov-div-new h4 {color: #c3c3c3;}
+.new-comment .podgruzka:hover {background-color: white;color: black;border: 2px solid white;}
+
+form#loginform p input.repeat_email{border: 2px solid;background: #fff0;color: white;}
+form#loginform p input.repeat_email:hover{border: 2px solid;background: white;color: black;}
+
+button.button_user:hover a{color: black;}
+
+#loginform input.newpass {background: #fff0;border-bottom: 2px solid white;padding-left: 0;color: white;}
+
+div.bloking {background: white;color: #180701;margin-bottom: 20px;}
+div.bloking h2 {color: #180701;}
+
+a.error{background: white;color: black;padding: 3px 5px;}
+a.error:hover{background: #191e24;color: white;padding: 3px 5px;}
+
+.comment {border-bottom: 1px solid #4b4b4b;}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #191e24;
+}
+.thumb-roll::-webkit-scrollbar {
+	height: 4px; /* высота для горизонтального скролла */
+    background: linear-gradient(#ffffff00 30%, #b1b1b1 , #ffffff00 70%);
+}
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+}
+.style-carusel {
+    background-color: #191e24;}

@@ -1,0 +1,12 @@
+a:hover{color: #C21616;text-decoration: none;border: none;}
+.Header.is-visible.admin ul li.gorizontal a:hover, li.gorizontal button:hover {color: #C21616;text-decoration: none;border: none;}
+.Header.is-visible.admin ul li.vertical a:hover, li.vertical button:hover {color: #C21616;text-decoration: none;border: none;}
+.generic-anchor {color: #C21616;}
+.generic-anchor:visited {color: #C21616;}
+.owl-2-style .owl-dots .owl-dot.active span {background: #C21616;}
+.dropdown-menu>.active>a {background-color: #C21616;}
+.podgruzka:hover {border: 2px solid #C21616;color: #C21616;}
+.form-action .input-group button.custom-search-botton {background: #C21616;border: none;}
+.form-action .input-group button.custom-search-botton:hover {background: #991111;border: none;}
+form .HeaderLoginBtn:hover {color: #C21616;}
+#loginform #wp-submit:hover,#loginform #register:hover{border: 2px solid #C21616;color: #C21616;}
